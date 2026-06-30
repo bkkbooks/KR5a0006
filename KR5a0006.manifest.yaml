@@ -1,0 +1,123 @@
+canonical_identifier: bkk:krp/KR5a0006/v1
+canonical_location: https://kanripo.org/bkk/KR5a0006/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上清大洞真經
+  identifiers:
+    alt_id:
+    - DZ0006
+  date: '2015-08-28 23:34:24.429210'
+  source:
+    repository: kanripo
+    path: KR5a0006
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0006_000.yaml, hash: 'sha256:804669ca96419ebdd47fd63a2e50e5d0ceaad6ac49efb9185c8d580be19747c2'}
+  - {seq: 1, filename: KR5a0006_001.yaml, hash: 'sha256:ffadcd81fde7f86378923d5926c66913e98414ce337f2d7514389bce06efb2ea'}
+  - {seq: 2, filename: KR5a0006_002.yaml, hash: 'sha256:6e27dc57c84c5cd221205efe48f81c355cdda4cde7a0fbff5ff13980e0b77f57'}
+  - {seq: 3, filename: KR5a0006_003.yaml, hash: 'sha256:b03248ca71d341bfc882a67a609e0a2c61a7f514680f9c11976323f93dec6eec'}
+  - {seq: 4, filename: KR5a0006_004.yaml, hash: 'sha256:55a47af4095c6d7e90e7b827f1822221c576774960c7d4852ab98f6a4ddb933d'}
+  - {seq: 5, filename: KR5a0006_005.yaml, hash: 'sha256:9a5b61d2bb4e9c35108d42931af00b4084e6d582e30e2026d80b9a72043d96cb'}
+  - {seq: 6, filename: KR5a0006_006.yaml, hash: 'sha256:1c0da1ce92a22c930dffb0fdc92b4051b633603cea43a4dd3479770a4ffc2eeb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0006_000.markers.yaml, hash: 'sha256:4d49e9455755732000645fcf7924c1f23e5374b4d4e29217e70d49fb6cb72985'}
+  - {seq: 1, role: markers, filename: assets/KR5a0006_001.markers.yaml, hash: 'sha256:ef4744fcb1a5554f8dec479601f9452e66599f040ca42965f6fae3a278e4fab2'}
+  - {seq: 2, role: markers, filename: assets/KR5a0006_002.markers.yaml, hash: 'sha256:f319bde52adb6787b1445545ae9d3647043299c355ef508c446bc8870664b3f4'}
+  - {seq: 3, role: markers, filename: assets/KR5a0006_003.markers.yaml, hash: 'sha256:5ccacbebb5ad3721301c55e237a94d9425f0ab227bf6680d7d2ff33f56bfbde1'}
+  - {seq: 4, role: markers, filename: assets/KR5a0006_004.markers.yaml, hash: 'sha256:fcc1426b4247ebd484ff71c2369d40432ecaeaa50d5c45ac374eecd23051fa59'}
+  - {seq: 5, role: markers, filename: assets/KR5a0006_005.markers.yaml, hash: 'sha256:115f01cf84a894c426fcc53379fcc5cb381cd49d16e95466e13b215faf3db784'}
+  - {seq: 6, role: markers, filename: assets/KR5a0006_006.markers.yaml, hash: 'sha256:cb59f1ce74df56f1231536b133a4915e0f2e8d8d80a5087d842c1d1ad47ea108'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0006_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 932
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5a0006_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 3519
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5a0006_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 4140
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR5a0006_HFL_003-001a
+    span:
+    - body
+    - 0
+    - 4275
+  label: juan 003
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR5a0006_HFL_004-001a
+    span:
+    - body
+    - 0
+    - 4288
+  label: juan 004
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR5a0006_HFL_005-001a
+    span:
+    - body
+    - 0
+    - 5126
+  label: juan 005
+  type: section
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR5a0006_HFL_006-001a
+    span:
+    - body
+    - 0
+    - 4881
+  label: juan 006
+  type: section
+  level: 1
+hash: sha256:d2b2c0e6db34ebca3885c6c3957b9443fff72209e4cc88e746b21a593053c137
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
